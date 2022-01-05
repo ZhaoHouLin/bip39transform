@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar"
+  ],
+  "workbench.colorTheme": "Monokai Dark Soda",
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue": "pug"
+  },
+  "emmet.syntaxProfiles": {
+    "vue": "pug"
+  },
+  "editor.tabCompletion": "on",
+  "editor.formatOnPaste": true,
+  "editor.wordWrap": "on", //視區寬度類這行
+  "editor.fontSize": 14, //編輯器字體大小
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace", //在編輯器中使用字體
+  "editor.fontLigatures": true, //啟用字體連字
+}
