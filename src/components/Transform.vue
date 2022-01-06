@@ -126,8 +126,8 @@ export default {
   // border 1px solid #000
   color white
   padding 2rem
-  box-shadow 1rem 1rem 16px 0.5px #222
-  // border-radius 2rem
+  box-shadow 0.5rem 0.5rem 1rem 0.5rem rgba(0,0,0,0.5)
+  border-radius 2rem
 
 .transform h1
   margin-bottom 2rem
