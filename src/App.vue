@@ -28,7 +28,7 @@ Transform
   display flex
   justify-content center
   align-items center
-  background-color orange
-  // background-color transparent
+  // background-color orange
+  background-color transparent
 
 </style>

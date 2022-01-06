@@ -107,7 +107,7 @@ export default {
 </script>
 
 <template lang="pug">
-.transform
+.transform(style="-webkit-app-region: drag")
   h1 各語言助記詞轉換
   .list
     .item(v-for='item in result' :key='item.title')
@@ -115,15 +115,16 @@ export default {
       h4 {{item.code}}
   .info
     h2 請輸入英文助記詞↓
-    input(v-model='insert' @input="changeList" )
+    input(v-model='insert' @input="changeList" style="-webkit-app-region: no-drag;")
 </template>
 
 <style lang="stylus" scoped>
 
 .transform
   width 45vh
-  background-color white
+  background-color orange
   // border 1px solid #000
+  color white
   padding 2rem
   box-shadow 1rem 1rem 16px 0.5px #222
   // border-radius 2rem
@@ -137,7 +138,7 @@ export default {
   justify-content space-between
   align-items center
   margin-bottom 0.8rem
-  border-bottom 1px solid #000
+  border-bottom 1px solid white
   // border 1px solid #000
   height 1.5rem
   h3

@@ -5,6 +5,6 @@ import path from 'path'           // electron
 // https://vitejs.dev/config/
 export default defineConfig({
   // base: path.resolve(__dirname, './dist/'), // electron
-  base: '/bip39transform/',
+  // base: '/bip39transform/',
   plugins: [vue()]
 })
