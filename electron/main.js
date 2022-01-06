@@ -5,9 +5,9 @@ const path = require('path')
 const  createWindow = () => {
   // 創建瀏覽器窗口
   const mainWindow = new BrowserWindow({
-    frame: false,     //無邊框
+    // frame: false,     //無邊框
     // titleBarStyle: 'hidden',  // 隱藏標題工作列
-    transparent: true,        // 透明背景(需隱藏標題工作列or無邊框才有用)
+    // transparent: true,        // 透明背景(需隱藏標題工作列or無邊框才有用)
     width: 1080,
     height: 800,
     transparent: true,
